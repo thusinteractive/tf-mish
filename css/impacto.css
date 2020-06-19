@@ -1,0 +1,12 @@
+.impacto-header-bg {
+  background-image: url(../assets/impacto-header-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.font-weight-light{
+  font-size: 15px;
+}

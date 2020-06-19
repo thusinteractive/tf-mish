@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Inicio</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;469;500;600;700&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body class="main-bg">
+
+  <!-- NavBar -->
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark navbar-bg fixed-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-md-end" id="navbar">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">INICIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="historia.html">HISTORIA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="impacto.html">IMPACTO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="medios.html">EN LOS MEDIOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nosotros.html">DE NOSOTROS A TI</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Loading animation -->
+  <div id="preloader" class="row align-items-center justify-content-center placeholder">
+    <div class="d-flex ">
+      <div class="spinner-border text-success" role="status"></div>
+    </div>
+    <p class="m-4 text-success"> Cargando...</p>
+  </div>
+
+  <!-- main  -->
+  <main id="main" role="main" class="main container-main hide">
+    <div class="bg-negro mh-100">
+      <div id="videoJane" class="container-fluid p-0">
+        <video class="videoJane" autoplay controls muted>
+          <source src="assets/Video_jane.mp4" type="video/mp4">
+          Tu navegador no puede reproducir el video.
+        </video>
+      </div>
+    </div>
+
+    <div class="container my-5 px-5">
+      <p class="quote-text text-center">
+        En 1900, aproximadamente 1 millón de chimpancés vivían en la naturaleza. Hoy, hay tan solo 340.000.<br>
+        La Dra. Jane Googall esta en una mision constante para salvar a los chimpancés de la extinción.<br>
+        Su trabajo, alrededor del mundo, renueva uno de nuestros recursos mas poderosos: la esperanza.<br>
+        Juntos, podemos cambiar estos números.
+      </p>
+    </div>
+  </main>
+
+  <!-- Footer  -->
+  <footer class="py-4 footer">
+    <div class="row container mx-auto ">
+      <div class="col-12 col-md text-center text-md-left">
+        <ul class="list-unstyled text-small">
+          <li><a href="cv.html" class="text-white">Sobre Jane</a></li>
+          <li><a href="contacto.html" class="text-white">Contactanos</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md text-center">
+        <img src="assets/Institutologo.png" alt="logo" width="200" height="auto">
+      </div>
+      <div class="col-12 col-md text-center text-md-right">
+        <a href="https://www.facebook.com">
+          <img src="assets/facebook.png" class="mx-2" alt="" width="30" height="30">
+        </a>
+        <a href="https://instagram.com">
+          <img src="assets/instagram.png" class="mx-2" alt="" width="30" height="30">
+        </a>
+        <a href="https://twitter.com">
+          <img src="assets/twitter.png" class="mx-2" alt="" width="30" height="30">
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/jquery-3.0.0.js"></script>
+  <script src="bootstrap-4.5.0-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>

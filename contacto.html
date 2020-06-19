@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Contacto</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/contacto.css">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;469;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+
+<body class="main-bg">
+
+  <!-- NavBar -->
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark navbar-bg fixed-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-md-end" id="navbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">INICIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="historia.html">HISTORIA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="impacto.html">IMPACTO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="medios.html">EN LOS MEDIOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nosotros.html">DE NOSOTROS A TI</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Loading animation -->
+  <div id="preloader" class="row align-items-center justify-content-center placeholder">
+    <div class="d-flex ">
+      <div class="spinner-border text-success" role="status"></div>
+    </div>
+    <p class="m-4 text-success"> Cargando...</p>
+  </div>
+
+  <!-- main  -->
+  <main id="main" role="main" class="main hide">
+
+    <div class="pt-5 container">
+      <div class="d-flex flex-column  text-white bg-azul">
+        <h1 class="mx-5 my-0 py-3 text-uppercase subtitle text-center">contacto</h1>
+        <div class="text-center mx-4 mt-4">
+          <p>¿Tienes una pregunta?</p>
+          <p>Nos encantara ayudarte, escribenos y te responderemos a la brevedad.</p>
+        </div>
+        <div class="row m-0">
+          <div class="col-12 col-md-6">
+
+            <form action="" class="m-5">
+              <div class="form-group">
+                <input type="text" class="form-control" id="name" placeholder="NOMBRE" name="name" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Por favor pon tu nombre.</div>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" required>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" id="message" rows="6" placeholder="MENSAJE" name="message"
+                  required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+
+          </div>
+          <div class="mb-4 col-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
+            <img src="assets/jane-logo.png" alt="" width="100px" class="m-3">
+            <div class="d-flex justify-content-center border-bottom">
+              <a href="mailto:janegoodall_web@gmail.com" class="text-white">
+                <i class="material-icons mx-2">mail</i>
+              </a>
+              <a href="mailto:janegoodall_web@gmail.com" class="text-white">
+                <p>janegoodall_web@gmail.com</p>
+              </a>
+            </div>
+            <div class="m-4">
+              <a href="https://www.facebook.com">
+                <img src="assets/facebook.png" class="mx-2" alt="" width="30" height="30">
+              </a>
+              <a href="https://instagram.com">
+                <img src="assets/instagram.png" class="mx-2" alt="" width="30" height="30">
+              </a>
+              <a href="https://twitter.com">
+                <img src="assets/twitter.png" class="mx-2" alt="" width="30" height="30">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Scripts -->
+  <script src="js/jquery-3.0.0.js"></script>
+  <script src="bootstrap-4.5.0-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>

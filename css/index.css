@@ -1,0 +1,11 @@
+.videoJane {
+  width: 100%;
+  height: auto;
+}
+
+/* Extra Large  */
+@media (min-width: 1200px) {
+  .container-fluid {
+    padding: 0% 7%!important;
+  }
+}

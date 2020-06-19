@@ -1,0 +1,81 @@
+.historia-header-bg {
+  background-image: url(../assets/historia-header-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.timeline {
+  border-left: 3px solid rgb(27, 110, 151);
+}
+
+.year-c {
+  color: rgb(139, 190, 56);
+}
+
+.timeline.card {
+  background-color: rgb(27, 110, 151);
+  color: white;
+  border: none;
+}
+
+.carousel-item .card {
+  height: 100%;
+  width: 100%;
+  border-radius: 0;
+  transition: opacity 1s;
+}
+
+.carousel-item .card:hover {
+  opacity: 70%;
+}
+
+.carousel-item .card .card-subtitle {
+  position: absolute;
+  padding-top: 65px;
+  padding-right: 20px;
+  transition: padding-top 1s;
+  font-size: 18px;
+}
+
+.carousel-item .card:hover .card-subtitle {
+  padding-top: 0;
+}
+
+.carousel-item .card .answer {
+  opacity: 0;
+  padding-top: 65px;
+  transition: opacity 1s;
+}
+
+.carousel-item .card:hover .answer {
+  display: block;
+  opacity: 100%;
+}
+
+/* Medium */
+
+@media (min-width: 768px) {
+  .timeline {
+    border: none;
+  }
+  .timeline::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 50%;
+    width: 0;
+    border-left: 3px solid rgb(27, 110, 151);
+    height: 9000px;
+  }
+}
+
+/* large  */
+
+@media (min-width: 992px) {
+  .timeline::before {
+    height: 7900px;
+  }
+}

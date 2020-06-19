@@ -1,0 +1,17 @@
+.bg-animation {
+  background-image: url(../assets/n-bg.png);
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: 0px 0px;
+  height: 400px;
+  width: auto;
+  animation-name: bg-header;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes bg-header{
+  0% {background-position: 0px 0px;}
+  100% {background-position: -1000px 0px;}
+}
